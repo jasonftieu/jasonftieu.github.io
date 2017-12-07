@@ -1,0 +1,194 @@
+body {
+/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Varela Round', sans-serif;
+
+/*  background-color: rgb(10, 67, 28);*/
+}
+
+
+
+.jumbotron {
+/*
+background-color: #3CB371;
+*/
+height: 100vh;
+width: 100%;
+background-color: #333333;
+background: url(Me3.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+#aboutme {
+margin: 0;
+padding: 0;
+
+}
+
+img {
+  background-color: #333333;
+  background-attachment: fixed;
+  background: cover;
+  background-repeat: no-repeat;
+  margin-top: 12px;
+  border-radius: 50%;
+  float: left;
+  display: inline;
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+  clear: both;
+}
+.jumbotron .container-fluid p {
+  color: #fff;
+}
+
+.aboutMe {
+  float: right;
+}
+
+footer {
+  border: solid #aaa 2px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: gray;
+}
+
+#links {
+  text-align: center;
+}
+@media screen and (max-width 760px) {
+
+}
+.jumbotron .container-fluid a {
+
+}
+
+
+
+#header-nav {
+  background: transparent;
+  border-radius: 0;
+  /* No border */
+  border: 0;
+
+}
+
+
+
+
+
+
+#jt-logo {
+  background-image: url(thejtlogo.jpg);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 10px 10px 10px 10px;
+  background-color: inherit;
+}
+
+button.navbar-toggle.collapsed {
+  margin-top: 17px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #3CB371;
+  transition: ease 0.35s;
+}
+
+
+
+
+
+.jumbotron .container-fluid {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+/*
+.img-responsive {
+   border-color: white;
+   border-width: 10px;
+   border-style: solid;
+   border-radius: 50%;
+   border: 0;
+   width: 300px;
+   height: 300px;
+   display: block;
+  margin: 0 auto;
+*/
+.img-responsive {
+  border-radius: 50%;
+}
+.jumbotron .container-fluid h1 {
+  color: #fff;
+  font-size: 500%;
+  text-align: center;
+  padding-top: 100px;
+
+}
+/*
+.jumbotron .container-fluid h3 {
+  color #fff;
+  margin-top: 200px;
+  font-size: 200%
+  text-align center;
+  border: solid #3CB371 2px;
+  text-transform: capitalize;
+*/
+
+.btn {
+  border-radius: 10px;
+  font-size: 135%;
+  border: solid #fff 2px;
+  color: #fff;
+  margin-top: 125px;
+}
+
+.btn:hover {
+  background: #3CB371;
+  transition: ease 0.35s;
+}
+
+.button {
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  color: #fff;
+  border: solid #fff 2px;
+  text-decoration: none !important;
+  border-radius: 10px;
+}
+.button:hover {
+  background: #3CB371;
+  transition: ease 0.35s;
+}
+
+.caption {
+  font-size: 50px;
+}
+
+
+
+
+/*
+.jumbotron .container-fluid p {
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+*/
