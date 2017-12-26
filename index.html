@@ -11,7 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="assets/js/lib/website.js"></script>
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <title></title>
 </head>
 
@@ -21,7 +22,7 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <a href="index.html">
-            <div id="" alt="The Logo Image" class="navbar-brand">
+            <div id="jtlogo" alt="The Logo Image" class="navbar-brand">
               <p>JT</p>
             </div>
           </a>
@@ -51,7 +52,7 @@
     <div id="coverPhotoContainer" class="container-fluid">
       <br>
 
-      <h1>Hello, my name is Jason Tieu</h1>
+      <h1 id="hello">Hello, my name is Jason Tieu</h1>
       <p id="coverDescription">I am an aspiring Software Engineer</p>
 
       <a id="introLink" class="btn" href="#introContent">Learn more</a>
@@ -82,7 +83,7 @@
         <div class="projectGrid">
           <!-- Make a section for each project here-->
           <!-- RGB GAME -->
-          <div class="projectCard col-lg-4 col-md-4 col-sm-6">
+          <div id="card1" class="projectCard col-lg-4 col-md-4 col-sm-6">
             <a href="">
               <div class="thumbnail">
                 <img src="assets/images/rgbColorGame.png" alt="">
@@ -109,7 +110,7 @@
             </div>
           </div>
           <!-- Patatap Clone -->
-          <div class="projectCard col-lg-4 col-md-4 col-sm-6">
+          <div id="card2" class="projectCard col-lg-4 col-md-4 col-sm-6">
             <a href="">
               <div class="thumbnail">
                 <img src="assets/images/patatap.png" alt="">
@@ -136,7 +137,7 @@
             </div>
           </div>
           <!-- todo app -->
-          <div class="projectCard col-lg-4 col-md-4 col-sm-6">
+          <div id="card3" class="projectCard col-lg-4 col-md-4 col-sm-6">
             <a href="">
               <div class="thumbnail">
                 <img src="assets/images/todo.png" alt="">
@@ -175,8 +176,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="skillsTitle">Skills</h2>
-          <ul>
+          <h2 id="skillsHeader" class="skillsTitle">Skills</h2>
+          <ul id="skills">
             <li><img src="assets/images/HTML5_LOGO.png" alt=""></li>
             <li><img src="assets/images/CSS3_LOGO.png" alt=""></li>
             <li><img src="assets/images/JAVASCRIPT_LOGO.png" alt=""></li>
@@ -197,7 +198,7 @@
             <h2 id="contactme" class="contactmeTitle">Contact Me!</h2>
 
             <div class="contactmePhoto">
-              <img src="assets/images/imageOfMe.png" alt="">
+              <img id="contactmePhoto" src="assets/images/imageOfMe.png" alt="">
               <div class="contactmeLinks">
                 <ul>
                   <li>
@@ -237,6 +238,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/bootstrap/bootstrap.js"></script>
+  <script type="text/javascript" src="assets/js/lib/website.js"></script>
 </body>
 
 </html>
