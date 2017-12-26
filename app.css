@@ -1,118 +1,195 @@
 body {
-/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: 'Varela Round', sans-serif;
-
-/*  background-color: rgb(10, 67, 28);*/
+  /*  background-color: rgb(10, 67, 28);*/
 }
 
-
-
-.jumbotron {
-/*
-background-color: #3CB371;
-*/
-height: 100vh;
-width: 100%;
-background-color: #333333;
-background: url(Me3.jpg);
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
+h3 {
+  font-size: 2vw;
 }
 
-#aboutme {
-margin: 0;
-padding: 0;
-
-}
-
-img {
-  background-color: #333333;
-  background-attachment: fixed;
-  background: cover;
-  background-repeat: no-repeat;
-  margin-top: 12px;
-  border-radius: 50%;
-  float: left;
-  display: inline;
-  clear: both;
-}
-
-h2 {
-  text-align: center;
-  clear: both;
-}
-.jumbotron .container-fluid p {
-  color: #fff;
-}
-
-.aboutMe {
-  float: right;
+p {
+  font-family: 'Lato', sans-serif;
+  font-family: display: run-in;
+  font-size: 20px;
 }
 
 footer {
   border: solid #aaa 2px;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   text-align: center;
-  background-color: gray;
+  background-color: #333333;
+  height: 100%;
+  padding-bottom: 40px;
 }
 
-#links {
-  text-align: center;
-}
-@media screen and (max-width 760px) {
-
-}
-.jumbotron .container-fluid a {
-
+footer div p {
+  margin-top: 50px;
+  color: #fff;
+  font-weight: 300;
 }
 
-
-
-#header-nav {
-  background: transparent;
-  border-radius: 0;
-  /* No border */
-  border: 0;
-
+div.contactmeLinks ul {
+  display: block;
+  list-style-type: none;
 }
 
+div.contactmeLinks ul li {
+  float: left;
+}
 
+span.glyphicon.glyphicon-envelope {
+  font-size: 50px;
+  margin-left: 50px;
+}
 
+div.contactmeContainer {
+  padding: 10px 150px;
+  margin: 0 0;
+}
 
+div.skillsContainer {
+  padding: 10px 150px;
+  margin: 30px 0;
+}
 
+div .skillsTitle {
+  border-bottom: 1px solid #333333;
+  padding: 10px 10px 10px 0;
+}
 
-#jt-logo {
-  background-image: url(thejtlogo.jpg);
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  margin: 10px 10px 10px 10px;
-  background-color: inherit;
+div.skillsContainer ul {
+  display: block;
+  list-style-type: none;
+  padding: 30px 250px;
+}
+
+div.skillsContainer ul li {
+  float: left;
+}
+
+div.skillsContainer ul li img {
+  width: 60px;
+  height: 60px;
+  margin: 0 45px;
+}
+
+div.introContent {
+  padding: 50px;
+}
+
+div .projectCardDescription p {
+  font-weight: 300;
+  margin: 10px;
+  font-size: 1.5vw;
+}
+
+div div.projectCardTitle h3 {
+  margin: 0;
+}
+
+div.projectCardDescription {
+  padding: 15px 0px 0px 10px;
+}
+
+div .projectCardStack {
+  border-top: 1px solid rgba(100, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(100, 0, 0, 0.1);
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+div .projectCardLinks {
+  display: block;
+}
+
+div .projectCardLinks img {
+  float: right;
+  width: 40px;
+  height: 40px;
+}
+
+div .projectCardLinks a {
+  text-transform: uppercase;
+  line-height: 3;
+  text-decoration: none;
+}
+
+div.projectCardLinks a:hover {
+  transition: ease 0.35s;
+  color: #3CB371;
+}
+
+div .projectCardStack ul {
+  display: block;
+  list-style-type: none;
+}
+
+div .projectCardStack .iconContainer li {
+  float: left;
+  list-style-type: none;
+}
+
+div .projectCardStack .iconContainer li img {
+  width: 40px;
+  height: 40px;
+  margin: 0 25px;
+}
+
+div.col-md-12.pageHeader {
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+}
+
+div.contactmePhoto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 300px;
 }
 
 button.navbar-toggle.collapsed {
   margin-top: 17px;
 }
 
-#nav-list {
-  margin-top: 10px;
-  margin-bottom: 10px;
+/* Cover photo */
+
+.jumbotron.coverPhoto {
+  height: 100vh;
+  width: 100%;
+  background-color: #333333;
+  background: url(assets/images/cole-patrick-8977.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
 }
 
-#nav-list a {
-  text-align: center;
+.jumbotron.contactmeCoverPhoto {
+  background: url(assets/images/daniel-leone-185834.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 0;
 }
-#nav-list a:hover {
-  background: #3CB371;
-  transition: ease 0.35s;
+
+.navbar-default {
+  border: none;
+  background: transparent;
 }
 
+.jumbotron .container-fluid p {
+  color: #fff;
+}
 
+@media screen and (max-width 760px) {}
 
-
+/* Learn more about me */
 
 .jumbotron .container-fluid {
   height: 100%;
@@ -121,37 +198,14 @@ button.navbar-toggle.collapsed {
   text-align: center;
 }
 
-/*
-.img-responsive {
-   border-color: white;
-   border-width: 10px;
-   border-style: solid;
-   border-radius: 50%;
-   border: 0;
-   width: 300px;
-   height: 300px;
-   display: block;
-  margin: 0 auto;
-*/
-.img-responsive {
-  border-radius: 50%;
-}
+/* "Hello, my name is Jason Tieu"*/
+
 .jumbotron .container-fluid h1 {
   color: #fff;
   font-size: 500%;
   text-align: center;
-  padding-top: 100px;
-
+  padding-top: 150px;
 }
-/*
-.jumbotron .container-fluid h3 {
-  color #fff;
-  margin-top: 200px;
-  font-size: 200%
-  text-align center;
-  border: solid #3CB371 2px;
-  text-transform: capitalize;
-*/
 
 .btn {
   border-radius: 10px;
@@ -174,6 +228,7 @@ button.navbar-toggle.collapsed {
   text-decoration: none !important;
   border-radius: 10px;
 }
+
 .button:hover {
   background: #3CB371;
   transition: ease 0.35s;
@@ -183,12 +238,77 @@ button.navbar-toggle.collapsed {
   font-size: 50px;
 }
 
+.projectGrid {
+  margin: 20px auto;
+  max-width: 1200px;
+}
 
+.iconButton:hover {
+  color: #ffffff;
+  transition: ease 0.35s;
+}
 
+.fa {
+  transform: scale(4);
+  margin: 75px;
+  padding: auto;
+}
 
 /*
-.jumbotron .container-fluid p {
-  letter-spacing: 2px;
-  white-space: nowrap;
+#jt-logo {
+  background-image: url(assets/images/logo.png);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 10px 10px 10px 10px;
+  background-color: inherit;
 }
 */
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#nav-list a {
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #3CB371;
+  transition: ease 0.35s;
+}
+
+#links {
+  text-align: center;
+}
+
+#introContent {
+  background: #FAFAFA;
+}
+
+#introContent p {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  float: right;
+}
+
+#projectHeader {
+  border-bottom: 1px solid #333333;
+  padding: 10px 10px 10px 0;
+}
+
+#featuredProjects {
+  padding: 0px 150px;
+}
+
+#todoStack li img {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+}
+
+#coverDescription {
+  padding-top: 25px;
+}
